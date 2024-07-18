@@ -3929,3 +3929,9 @@ hr {
 .cs_portfolio.cs_style_1 .cs_portfolio_grid_btn.text-center {
   margin-top: -5px;
 }/*# sourceMappingURL=style.css.map */
+
+
+body .cs_hero.cs_style_1 .cs_moving_text_wrap.cs_style_1{ 
+  bottom: -9% !important; 
+}
+
