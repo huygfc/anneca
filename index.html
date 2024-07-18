@@ -690,22 +690,27 @@
           <div class="cs_pl_100">
             <h3 class="cs_fs_28 mb-0 cs_secondary_color">Hey, how about we catch up over coffee and have a chat?</h3>
             <div class="cs_height_56 cs_height_lg_40"></div>
-            <form action="#">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+              <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="20113e25-69b7-4436-8fd8-bccd0d11b3bd">
               <div class="cs_mb_18">
                 <label>Full Name*</label>
-                <input type="text" class="cs_form_field">
+                <input type="text" name="name" class="cs_form_field" required>
               </div>
               <div class="cs_mb_18">
                 <label>Email*</label>
-                <input type="email" class="cs_form_field">
+                
+                <input type="email" name="email"  class="cs_form_field" required>
               </div>
               <div class="cs_mb_18">
                 <label>Mobile*</label>
-                <input type="text" class="cs_form_field">
+                <input type="number" name="number"  class="cs_form_field" required>
+                
               </div>
               <div class="cs_mb_25">
                 <label>Write Project Details*</label>
-                <textarea cols="30" rows="5" class="cs_form_field"></textarea>
+                <textarea cols="30" name="message"  rows="5" class="cs_form_field"></textarea>
               </div>
               <button class="cs_btn cs_style_1 cs_type_2 cs_radius_15">Send Message</button>
             </form>
