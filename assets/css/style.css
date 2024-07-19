@@ -3023,6 +3023,7 @@ hr {
 }
 .cs_site_header.cs_style_1 .cs_nav_list > li > a {
   text-transform: uppercase;
+  font-size: 15px;
 }
 
 .cs_site_header.cs_style_1.cs_sticky_active {
